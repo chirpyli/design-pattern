@@ -13,10 +13,10 @@ Design pattern learning, blogs and codes.
 [原型模式（Prototype Pattern）](./PrototypePattern/原型模式.md) —— 用原型实例指定创建对象的种类，并且通过拷贝这个原型来创建新的对象。
 
 [建造者模式（Builder Pattern）](./BuilderPattern/建造者模式.md) —— 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
-###### 结构型
+### 结构型
 适配器模式（Adapter Pattern） —— 将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
-[桥接模式（Bridge Pattern）](https://blog.csdn.net/s_lisheng/article/details/74999374)—— 将抽象部分与实现部分分离，使它们都可以独立的变化。
+[桥接模式（Bridge Pattern）](./BridgePattern/桥接模式.md)—— 将抽象部分与实现部分分离，使它们都可以独立的变化。
 
 [装饰器模式（Decorator Pattern）](https://blog.csdn.net/s_lisheng/article/details/80765803)—— 动态地给一个对象添加一些额外的职责。就扩展功能而言，Decorator模式比生成子类方式更为灵活。
 外观模式（Facade Pattern） —— 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高级接口，这个接口使得这一子系统更加容易使用。
@@ -26,7 +26,7 @@ Design pattern learning, blogs and codes.
 [代理模式（Proxy Pattern）](https://blog.csdn.net/s_lisheng/article/details/76911639) —— 为其他对象提供一个代理以控制对这个对象的访问。
 
 [组合模式（Composite Pattern）](https://blog.csdn.net/s_lisheng/article/details/80968711) —— 将对象组合成树形结构以表示“部分-整体”的层次结构。Composite使得客户对单个对象和符合对象的使用具有一致性。
-###### 行为型
+### 行为型
 责任链模式（Chain of Responsibility Pattern） —— 为解除请求的发送者和接收者之间耦合，而使得多个对象都有机会处理这个请求。将这些对象连成一条，并沿着这条链传递该请求，直到有一个对象处理它。
 
 命令模式（Command Pattern） —— 将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可取消的操作。
