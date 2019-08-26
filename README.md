@@ -3,7 +3,7 @@ Design pattern learning, blogs and codes.
 
 参考书籍：《设计模式——可复用面向对象软件的基础》
 
-核心： 抽象、复用
+**核心： 抽象、复用**
 
 ## 面向对象设计原则
 
@@ -78,6 +78,6 @@ Design pattern learning, blogs and codes.
 
 [策略模式（Strategy Pattern）](https://blog.csdn.net/s_lisheng/article/details/81606938) —— 定义一系列的算法，把它们一个个封装起来，并且使它们可互相替换。本模式使得算法的变化可独立于使用它的客户。
 
-[模板模式（Template Pattern）](https://blog.csdn.net/s_lisheng/article/details/81566111) —— 定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+[模板模式（Template Pattern）](./TemplatePattern/模板模式.md) —— 定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 
 访问者模式（Visitor Pattern） —— 表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
