@@ -76,7 +76,7 @@ Design pattern learning, blogs and codes.
 
 状态模式（State Pattern） —— 允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它所属的类。
 
-[策略模式（Strategy Pattern）](https://blog.csdn.net/s_lisheng/article/details/81606938) —— 定义一系列的算法，把它们一个个封装起来，并且使它们可互相替换。本模式使得算法的变化可独立于使用它的客户。
+[策略模式（Strategy Pattern）](./StrategyPattern/策略模式.md) —— 定义一系列的算法，把它们一个个封装起来，并且使它们可互相替换。本模式使得算法的变化可独立于使用它的客户。
 
 [模板模式（Template Pattern）](./TemplatePattern/模板模式.md) —— 定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 
