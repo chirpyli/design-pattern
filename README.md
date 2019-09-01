@@ -72,7 +72,7 @@ Design pattern learning, blogs and codes.
 
 备忘录模式（Memento Pattern） —— 在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到保存的状态。
 
-[观察者模式（Observer Pattern）](https://blog.csdn.net/s_lisheng/article/details/81737903) —— 定义对象间的一种一对多的依赖关系，以便当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并自动刷新。
+[观察者模式（Observer Pattern）](./ObserverPattern/观察者模式.md) —— 定义对象间的一种一对多的依赖关系，以便当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并自动刷新。
 
 状态模式（State Pattern） —— 允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它所属的类。
 
