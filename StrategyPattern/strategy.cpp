@@ -11,7 +11,7 @@ protected:
 };
 
 // 策略A
-class ConcreteStrategyA :public Strategy{
+class ConcreteStrategyA :public Strategy {
 public:
     ConcreteStrategyA(){}
     ~ConcreteStrategyA(){}
@@ -37,7 +37,7 @@ public:
     }
     ~Context(){}
     void DoAction(){
-    cout<<"Context DoAction:"<<endl;
+        cout<<"Context DoAction:"<<endl;
         m_strategy->AlgrithmInterface();
     }
     void change_strategy(Strategy* v){
