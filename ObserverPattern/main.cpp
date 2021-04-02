@@ -2,8 +2,7 @@
 #include "observer.h"
 #include "subject.h"
 
-int main()
-{
+int main() {
     ConcreteSubject* subject = new ConcreteSubject();
     Observer* obA = new ConcreteObserverA("observerA", -1);
     Observer* obB = new ConcreteObserverB("observerB", -1);

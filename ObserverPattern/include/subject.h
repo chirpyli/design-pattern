@@ -25,8 +25,7 @@ private:
 };
 
 // 被观察者（实际发布者）
-class ConcreteSubject: public Subject
-{
+class ConcreteSubject: public Subject {
 public:
     ConcreteSubject(){}
     ~ConcreteSubject(){}
