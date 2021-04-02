@@ -1,3 +1,8 @@
+/*
+Builder pattern.  这里的实现有点复杂了，代码要根据实际情况，很多时候可以直接写一个XXBuilder类直接构造对象就可以了.
+
+*/
+
 #include<string>
 #include <iostream>
 using namespace std;
@@ -71,9 +76,9 @@ public:
 };
 
 int main(){
-    Builder* builder=new ConcreteBuilder();
-    Directer* directer=new Directer(builder);
-    Product* product=directer->construct(10,"ten");
+    Builder* builder = new ConcreteBuilder();
+    Directer* directer = new Directer(builder);
+    Product* product = directer->construct(10,"ten");
     product->output();
 
     delete product;
