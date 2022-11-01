@@ -60,5 +60,8 @@ int main()
     Target *adt = new Adapter(ade);
     adt->Request();
 
+    delete ade;
+    delete adt;
+
     return 0;
 }

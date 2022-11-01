@@ -53,7 +53,7 @@ Design pattern learning, blogs and codes.
 
 [装饰器模式（Decorator Pattern）](./DecoratorPattern/装饰器模式.md)—— 动态地给一个对象添加一些额外的职责。就扩展功能而言，Decorator模式比生成子类方式更为灵活。
 
-外观模式（Facade Pattern） —— 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高级接口，这个接口使得这一子系统更加容易使用。
+[外观模式（Facade Pattern）](./FacadePattern/facade-pattern.md) —— 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高级接口，这个接口使得这一子系统更加容易使用。
 
 享元模式（Flyweight Pattern） —— 运用共享技术有效地支持大量细粒度的对象。
 
