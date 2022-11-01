@@ -47,7 +47,7 @@ Design pattern learning, blogs and codes.
 
 [建造者模式（Builder Pattern）](./BuilderPattern/建造者模式.md) —— 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
 ### 结构型
-适配器模式（Adapter Pattern） —— 将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
+[适配器模式（Adapter Pattern）](./AdapterPattern/adapter-pattern.md) —— 将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
 [桥接模式（Bridge Pattern）](./BridgePattern/桥接模式.md)—— 将抽象部分与实现部分分离，使它们都可以独立的变化。
 
