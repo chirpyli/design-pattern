@@ -5,6 +5,8 @@ Design pattern learning, blogs and codes.
 
 **核心： 抽象、复用**
 
+设计模式的学习需要结合实际工作中的项目，在应用中学习与体会，不能变成八股文，可以间隔一段时间，结合自己的工作再翻一遍书，会有更深的体会与理解。
+
 ## 面向对象设计原则
 
 - 依赖倒置原则（DIP）
@@ -55,7 +57,7 @@ Design pattern learning, blogs and codes.
 
 [外观模式（Facade Pattern）](./FacadePattern/facade-pattern.md) —— 为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高级接口，这个接口使得这一子系统更加容易使用。
 
-享元模式（Flyweight Pattern） —— 运用共享技术有效地支持大量细粒度的对象。
+[享元模式（Flyweight Pattern）](./FlyweightPattern/flyweight-pattern.md) —— 运用共享技术有效地支持大量细粒度的对象。
 
 [代理模式（Proxy Pattern）](./ProxyPattern/代理模式.md) —— 为其他对象提供一个代理以控制对这个对象的访问。
 
